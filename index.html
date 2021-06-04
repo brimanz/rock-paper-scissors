@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <!--custom CSS-->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+      <div id="user-label" class="badge">User</div>
+      <div id="computer-label" class="badge">IA</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+      <p>Welcome to the Game</p>
+    </div>
+
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="img/rock.svg" alt="">
+      </div>
+      <div class="choice" id="p">
+        <img src="img/paper.svg" alt="">
+      </div>
+      <div class="choice" id="s">
+        <img src="img/scissors.svg" alt="">
+      </div>
+    </div>
+
+    <p id="action-message">Select your option</p>
+
+
+
+
+    <!---app scritps-->
+    <script src="app.js" charset="utf-8"></script>
+    <!---app scritps-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!---animation scritp-->
+    <script src="animation.js" charset="utf-8"></script>
+</body>
+</html>
